@@ -1,0 +1,80 @@
+
+body {
+    background: #eeeeee;
+    font: normal 15pt arial;
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+
+div#ita {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+input#itarefa {
+    height: 120px;
+    font-size: 15pt;
+    width: 69.5%;
+    padding-left: 10%;
+    border: none;
+}
+
+input#button {
+    width: 20%;
+    background: green;
+    border: none;
+    height: 120px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+main#areaLista {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto;
+    border: 1px solid blue;
+    padding-top: 40px;
+}
+
+div#item {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    background: white;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0 0 20px #ccc;
+}
+
+div#itemicone{
+    flex:20%;
+    border: 1px solid orangered;
+    text-align: center;
+    font-size: 2rem;
+    }
+div#itemnome{
+    flex: 55%;
+    border: 1px solid pink;
+    text-align: center;
+    
+    }
+
+div#itembotao{
+    flex: 20%;
+    border: 1px solid green;
+    text-align: center;
+   
+    }
+
+
+
